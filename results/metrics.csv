@@ -1,0 +1,16 @@
+Model,Activation,Optimizer,Seq Length,Grad Clipping,Accuracy,F1,Epoch Time (s)
+RNN,Tanh,adam,50,No,0.50,0.36,19.82
+LSTM,Tanh,adam,50,No,0.76,0.76,54.38
+Bidirectional LSTM,Tanh,adam,50,No,0.75,0.76,90.49
+LSTM,Tanh,adam,50,No,0.76,0.77,42.68
+LSTM,Relu,adam,50,No,0.71,0.73,40.61
+LSTM,Sigmoid,adam,50,No,0.76,0.75,42.29
+LSTM,Tanh,adam,50,No,0.75,0.74,42.23
+LSTM,Tanh,sgd,50,No,0.58,0.45,40.77
+LSTM,Tanh,rmsprop,50,No,0.78,0.78,42.12
+LSTM,Tanh,rmsprop,25,No,0.73,0.73,40.51
+LSTM,Tanh,rmsprop,50,No,0.77,0.78,57.88
+LSTM,Tanh,rmsprop,100,No,0.83,0.83,89.12
+LSTM,Tanh,rmsprop,100,No,0.83,0.83,107.83
+LSTM,Tanh,rmsprop,100,Yes,0.83,0.83,83.26
+LSTM,Tanh,rmsprop,100,No,0.83,0.83,85.42
